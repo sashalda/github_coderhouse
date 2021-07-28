@@ -1,0 +1,795 @@
+/*reseteo pagina*/
+* {
+    padding: 0;
+    margin: 0;
+}
+/*imagen de portada*/
+.portadaMarisa {
+    margin-bottom: 20px;
+}
+/*fondo body*/
+body {
+    background-color:#EDF2FB;
+}
+.navJpg {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+/*texto general*/
+p {
+    color: black; 
+    font-size: 16px; 
+    font-family: 'Noto Sans', sans-serif; 
+    line-height: 2;
+    text-align: left;
+    margin: 30px 100px;
+    text-align: justify;
+}
+/*banner inicio futuro slider*/
+/*background-color: rgba(250, 250, 250, .8) */
+.banner-inicio {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://www.wawanesa.com/resources/img/usa/blog-images/gettyimages-1161746520-min.jpg);
+    background-position:center;
+    background-size: cover;
+    margin:0;
+}
+/* aca voy a usar padding para moverlo porque no me deja con margin y no se por qué*/
+.banner-inicio h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding-top: 5%;
+    margin-left: 10%;
+    -webkit-text-stroke: 1px grey;
+}
+.banner-inicio p {
+    color: white;
+    text-align: justify;
+    padding: 3% 40% 0 3%;
+    font-weight: 500;
+}
+.banner-inicio span {
+    background-color: grey;
+}
+/*banner quienes somos*/
+.banner-quienes-somos {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://res.cloudinary.com/iubh/image/upload/q_auto:eco/f_auto,w_iw,c_fill,g_face,ar_16:9/v1612256805/01%20-%20Studiengaenge/01%20-%20Bachelor/Wirtschaftspsychologie/2101-kv-wirtschaftspsychologie_sstcey.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    margin-bottom: 100px;
+}
+.banner-quienes-somos h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 1px grey;
+    text-align: left;
+    margin: 0;
+    padding-top: 7%;
+    margin-left: 5%;
+}
+.banner-quienes-somos p {
+    color: white;
+    text-align: justify;
+    padding: 4% 40% 0 5%;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.banner-quienes-somos span {
+    background-color: grey;
+}
+/*banner companias*/
+.banner-companias {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://www.tfilo.com.tr/images/istock/9.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+} 
+.banner-companias h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 1px grey;
+    text-align: left;
+    margin:0;
+    padding-top: 5%;
+    margin-left: 5%;
+}
+.banner-companias p {
+    color: white;
+    text-align: justify;
+    padding: 3% 40% 0 0%;
+    font-weight: 500;
+    margin: 3% 0 0 5%;
+}
+.banner-companias span {
+    background-color: grey;
+}
+/*banner servicios*/
+.banner-servicios {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://static.twentyoverten.com/5c3540f445d9625df1669e12/01aHPyevRib/iStock-528474010.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+.banner-servicios h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding-top: 7%;
+    margin-left: 5%;
+    -webkit-text-stroke: 1px grey;
+}
+.banner-servicios p {
+    color: white;
+    text-align: justify;
+    margin: 0;
+    padding: 5% 55% 0 5%;
+    font-weight: 500;
+}
+.banner-servicios span {
+    background-color: grey;
+}
+/*banner contacto*/
+.banner-contacto {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://cdn.bostondigital.com/sites/default/files/GettyImages-1088347818.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+.banner-contacto h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding-top: 7%;
+    margin-left: 5%;
+    -webkit-text-stroke: 1px grey;
+}
+.banner-contacto p {
+    color: white;
+    text-align: justify;
+    padding: 5% 50% 0 5%;
+    font-weight: 500;
+    margin: 0;
+}
+.banner-contacto span {
+    background-color: grey;
+}
+/*nombre marisa*/
+.title {
+    background-color: #E2EAFC;  
+    color:#001F66; 
+    font-size: 45px ; 
+    font-style: italic; 
+    letter-spacing: 2px; 
+    text-align: center;
+    margin: 100px 30% 20px;
+}
+/*txt: productor de seguros*/
+.subtitle {
+    background-color: #E2EAFC; 
+    color: #00257A; 
+    text-align: center; 
+    letter-spacing: 1px; 
+    font-size: 35px;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+/*pag + bordes mios*/
+.cuerpoPagina { 
+    margin-left: 10px;
+}
+.recepcionistaTexto {
+    display: flex;
+    flex: 1;
+    padding: 1em;
+}
+/*titulos subpags*/ 
+h1 {
+    color: darkblue; 
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 5%; /*ver si funciona*/
+}
+/*titulos secciones*/
+h2 {
+    color: darkblue; 
+    font-size: 25px; 
+    text-decoration: underline;
+    margin: 5%;
+    }
+.experienciaRubro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
+    margin: 5%;
+    margin-left: 0;
+}
+.experienciaRubro p {
+    margin-top: 0;
+}
+.videoYt1 {
+    width: 100%;
+    height: 100%;
+}
+
+.contactoredes {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 0;
+    margin: 0 4%;
+}
+.redesSociales {
+    margin: 50px 100px ;
+}
+.contactoredes p {
+    text-transform: uppercase;
+    text-align:justify;
+    margin-top: 50px;
+    font-weight: bolder; 
+    margin-left: 0;  
+}
+/*formulario contacto*/
+form {
+    color: black;
+    background-color:#D7E3FC; 
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif; 
+    line-height: 2;
+    width: 740px;
+    margin-left: 20px;
+    padding: 15px;
+}
+/*secciones form*/
+form fieldset {
+    padding: 20px; 
+}
+form fieldset p {
+    margin-left: 0;
+    font-size: 16px;
+    margin-top: 0;
+}
+table {
+    background-color: #E2EAFC; 
+    font-size: 16px;
+    text-align: center;
+}
+/*botones*/
+.botones {
+    float: right;
+}
+.boton {
+    padding: 7px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+/*reseña clientes index*/
+.opinion {
+    font-family: 'Noto Sans', sans-serif; 
+    line-height: 2; 
+    color: blue;
+    /*margin: 5% 10%;*/
+    margin: 0 10% 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    
+}
+.opinion p {
+    margin: 5px;
+    padding: 20px;
+    background-color: #D7E3FC;;
+    
+}
+.opinion h3 {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: darkblue;
+    text-transform: uppercase; 
+}
+/*Me gustaria que las estrellas esten centradas de otra manera que no sea con margin, ver*/
+.opinion div {
+margin: 0 35%;
+color: gray;
+} 
+/*.cliente {
+    color: black; 
+    text-align: left; 
+    font-style: italic; 
+    line-height: 3;
+}
+.cliente td {
+    padding: 40px;
+    text-align: justify;
+}
+.tituloTablaOpnion {
+    padding: 10px;
+    text-transform: uppercase;
+}
+.estrella {
+    padding: 10px;
+}*/
+.mapita {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
+    /*display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    justify-content: stretch;*/
+}
+.mapita p {
+    margin: 0 50px;
+    font-size: 15px;
+}
+.mapagoogle {
+    width:100%; 
+    height:100%;
+}
+/*tabla compañias*/
+.tablaCompanias {
+    margin: 50px 150px;
+    width: 80%;
+}
+.nombreTd {
+    color: darkblue; 
+    text-align: center;
+    text-transform: uppercase;
+}
+.nombreTd2 {
+    color: darkblue; 
+    text-align: center; 
+    font-style: italic;
+}
+.nombreTd3 {
+    color: black; 
+    text-align: center; 
+    font-style: italic;
+}
+ul {
+    background-color: #D7E3FC; 
+    color: #00123D;
+    list-style-type: circle;
+    list-style-position: outside;
+    text-align: left;
+    margin-left: 30px
+}
+ol {
+    background-color: #D7E3FC; 
+    color: #00123D;
+    list-style-type: square;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin: 0;
+    background: #EAEAFC;
+    background: -webkit-linear-gradient(top, #EAEAFC, #ACA5DF);
+    background: -moz-linear-gradient(top, #EAEAFC, #ACA5DF);
+    background: linear-gradient(to bottom, #EAEAFC, #ACA5DF);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0 20px;
+
+
+}
+footer p {
+    font-size: 12px;
+    margin: 20px;
+    font-weight:700;
+    text-align: right;
+}
+footer img {
+    margin-left: 100px;
+}
+/*lista tipos seguros*/
+.servicios {
+    font-size: 120%; 
+    line-height: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 30px 200px 0px 30px;
+}
+.listaServicios {
+    background-color:#EDF2FB;
+    list-style-type: square;
+    margin-left: 100px;
+}
+.subListaServicios {
+    list-style-type: square;
+    background-color:#EDF2FB;
+}
+/*pag quienes somos*/
+.videoYt2 {
+    margin: 5% 10%;
+}
+.recepcionista {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 50%
+}
+.recepcionista:hover {
+    transform: translate(30px);
+    transform-origin: center center;
+
+
+}
+.tipoSeguroJpg {
+margin: 10px 150px;
+border-radius: 13px;
+width: 700px;
+}
+.comunicate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;   
+}
+.comunicate img {
+    margin-left: 50px;
+}
+/*media responsive*/
+
+/*iphone SE */
+@media only screen and (max-width:500px) {
+    nav {
+        grid-template-columns: 1fr;
+    }
+    /*Cuando me toque bootstrap quiero hacerle un desplegable al costado*/
+    .listaMenu {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .banner-inicio {
+        height: 200px;
+    }
+    .banner-inicio h1 {
+        font-size: 50px;
+        padding-top: 22%;
+    }
+    .banner-inicio p {
+        display: none;
+    }
+    .banner-quienes-somos {
+        height: 200px;
+    }
+    .banner-quienes-somos h1 {
+        font-size: 50px;
+        padding-top: 20%;
+    }
+    .banner-quienes-somos p {
+        display: none;
+    }
+    .title {
+        font-size: 30px;
+        margin: 50px 30px 0
+    }
+    .subtitle {
+        font-size: 20px;
+        margin: 20px 40px 50px;
+        
+    }
+    .experienciaRubro {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    .experienciaRubro p {
+        font-size: 16px;
+        margin: 10px;
+    }
+    .cuerpoPagina {
+        margin: 5px;
+    }
+    .videoYt1 {
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .contactoredes {
+        grid-template-columns: 1fr;
+        grid-column-gap: 5px;
+    }
+    .contactoredes p {
+        text-align: center;
+        font-size: 16px;
+        margin: 10px;
+    }
+    .redesSociales {
+        margin: 20px;
+    }
+    .opinion {
+        grid-template-columns: 1fr;
+        margin: 0;
+
+    }
+    .estrellita {
+        margin:0;
+        padding: 10px;
+    }
+    .h2mapita {
+        margin-top: 150px;
+        margin-left: 5px;
+    }
+    .mapita {
+        grid-template-columns: 1fr;
+        grid-column-gap: 15px;
+    }
+    .mapita p {
+        font-size: 16px;
+        margin: 0;
+    }
+    .mapagoogle {
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+    }
+    h2 {
+        text-align: center;
+    }
+    footer {
+        grid-template-columns: 3fr;
+        padding: 10px 0 10px;
+    }
+    footer img {
+        display: none;
+    }
+    .redesSociales{
+        padding-left: 20px;
+    }
+    .redesSociales img {
+        width: 50px;
+        height: 50px;
+    }
+    .redesSociales p {
+        text-align: left;
+        font-size: 15px;
+    }
+    .estrellita {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .opinion article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .recepcionistaTexto {
+        display: grid;
+        grid-template-rows:1fr;
+    }
+    .recepcionistaTexto p {
+        margin: 10px;
+    }
+    /*Jamas me dejo cambiarle el tamaño, ver dsp*/
+    .recepcionistaTexto img {
+       display: none;
+    }
+    .videoYt2 {
+        height: 300px;
+    }
+}
+/*ipad mini 4 funciona*/
+@media only screen and (min-width:499px) and (max-width:780px) {
+    .listaMenu {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .banner-inicio {
+        height: 300px;
+    }
+    .banner-inicio h1 {
+        font-size: 70px;
+        padding-top: 20%;
+
+    }
+    .banner-inicio p {
+        display: none;
+    }
+    .title {
+        font-size: 40px;
+        margin: 50px 30px 0
+    }
+    .subtitle {
+        font-size: 30px;
+        margin: 20px 40px 50px;
+    }
+    .experienciaRubro {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    .experienciaRubro p {
+        font-size: 16px;
+        margin: 10px;
+    }
+    .cuerpoPagina {
+        margin: 35px;
+    }
+    .videoYt1 {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .contactoredes {
+        grid-template-columns: 1fr;
+        grid-column-gap: 5px;
+    }
+    .contactoredes p {
+        text-align: left;
+        font-size: 16px;
+        margin: 10px;
+        margin-left: 0;
+    }
+    .redesSociales {
+        margin: 20px;
+    }
+    .opinion {
+        grid-template-columns: 1fr;
+        margin: 10px;
+
+    }
+    .estrellita {
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .h2mapita {
+        margin-top: 150px;
+        margin-left: 5px;
+    }
+    .mapita {
+        grid-template-columns: 1fr;
+        grid-column-gap: 15px;
+    }
+    .mapita p {
+        font-size: 16px;
+        margin: 0;
+    }
+    .mapagoogle {
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+    }
+    footer {
+        grid-template-columns: 3fr;
+        padding: 10px 0 10px;
+    }
+    footer img {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width : 777px) and (max-device-width : 1025px) {
+    nav {
+        grid-template-columns: 1fr;
+    }
+    /*Cuando me toque bootstrap quiero hacerle un desplegable al costado*/
+    .listaMenu {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .banner-inicio {
+        height: 400px;
+    }
+    .banner-inicio h1 {
+        font-size: 80px;
+        padding-top: 30%;
+    }
+    .banner-inicio p {
+        display: none;
+    }
+    .title {
+        font-size: 40px;
+        margin: 50px 30px 0
+    }
+    .subtitle {
+        font-size: 30px;
+        margin: 20px 40px 50px;
+    }
+    .experienciaRubro {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    .experienciaRubro p {
+        font-size: 16px;
+        margin: 10px;
+    }
+    .cuerpoPagina {
+        margin: 35px;
+    }
+    .videoYt1 {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .contactoredes {
+        grid-template-columns: 1fr;
+        grid-column-gap: 5px;
+    }
+    .contactoredes p {
+        text-align: left;
+        font-size: 16px;
+        margin: 10px;
+        margin-left: 0;
+    }
+    .redesSociales {
+        margin: 20px;
+    }
+    .opinion {
+        grid-template-columns: 1fr;
+        margin: 10px;
+
+    }
+    .estrellita {
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .h2mapita {
+        margin-top: 150px;
+        margin-left: 5px;
+    }
+    .mapita {
+        grid-template-columns: 1fr;
+        grid-column-gap: 15px;
+    }
+    .mapita p {
+        font-size: 16px;
+        margin: 0;
+    }
+    .mapagoogle {
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+    }
+    footer {
+        grid-template-columns: 3fr;
+        padding: 10px 0 10px;
+    }
+    footer img {
+        display: none;
+    }
+}
